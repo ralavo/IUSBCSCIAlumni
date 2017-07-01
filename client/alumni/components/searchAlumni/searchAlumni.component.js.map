@@ -1,0 +1,1 @@
+{"version":3,"file":"searchAlumni.component.js","sourceRoot":"","sources":["searchAlumni.component.ts"],"names":[],"mappings":";;;;;;;AAAA,sCAA0C;AAS1C,IAAa,qBAAqB;IAAlC;IAEA,CAAC;IAAD,4BAAC;AAAD,CAAC,AAFD,IAEC;AAFY,qBAAqB;IANjC,gBAAS,CAAC;QACT,QAAQ,EAAE,MAAM,CAAC,EAAE;QACnB,QAAQ,EAAE,cAAc;QACxB,WAAW,EAAE,6BAA6B;KAC3C,CAAC;GAEW,qBAAqB,CAEjC;AAFY,sDAAqB"}

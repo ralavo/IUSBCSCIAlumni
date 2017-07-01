@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding:0;
+    margin:0;
+    line-height: 1.5;
+    background: #f4f4f4;
+}
+
+header{
+    padding:0;
+    margin:0;
+    min-height: 30px;
+    background: #7a1705;
+}
+
+header h3{
+    color:#ffffff;
+}
+
+header #brand{
+    padding: 10px;
+    float: left;
+}
+
+header #search{
+    padding: 10px;
+    margin-top: 10px;
+    float: right;
+}
+
+.my-drop-zone { border: dotted 3px lightgray; }
+.nv-file-over { border: dotted 3px red; } /* Default class applied to drop zones on over */
+.another-file-over-class { border: dotted 3px green; }
+
+
+/* SHOWCASE */
+#showcase{
+    min-height: 400px;
+    background: url('/img/alum.jpg') no-repeat -2000px -400px;
+    text-align: center;
+    color:#ffffff;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+/*ASIDE NAV BAR*/
+aside{
+    background: #626267;
+    min-height: 400px;
+}
+
+aside a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+aside nav{
+    margin-left:20px;
+}
+aside ul{
+    margin:0;
+    padding:0;
+}
+aside li{
+    display: block; /* remove the bullet of the list items*/
+    padding: 10px 0 10px 0;
+}
+
+aside a:hover{
+    color:#7a1705;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ADDALUMNI */
+addAlumni{
+    background: #e1d8b7;
+    float: right;
+}
+addAlumni #information{
+    /*background: #e1d; */
+    padding-bottom: 10px; 
+}
+
+addAlumni h3{
+    color: #7a1705;
+    font-size: 20px;
+}
+addAlumni #picture{
+    /*background: #a9a;*/
+    float: right;
+}
+
+/* SEARCHALUMNI */
+searchAlumni{
+    background: #e1d8b7;
+    width: 75%;
+    float: right;
+}
+
+/* VIEWALUMNI */
+viewAlumni{
+    background: #e1d8b7;
+    width: 75%;
+    float: right;
+}
+
+/* VIEWALLALUMNI */
+viewAllAlumni{
+    background: #e1d8b7;
+    width: 75%;
+    float: right;
+}
+
+footer {
+    padding: 20px;
+    border-top: #7a1705 5px solid;
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+<div >
+    <header >
+        <div class="container">
+            <div id="brand">
+                <h3>IU South Bend Computer and Information Sciences Alumni Association</h3>
+            </div>
+            <div id="search" class="row">
+         <!--       <form class="form-inline">
+                    <input class="form-control"  placeholder="Search...">
+                    <button class="glyphicon glyphicon-search btn btn-default" aria-label="true"></button>
+                </form> -->
+            </div>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>IU Alumni Association</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum eu dolor non placerat. Phasellus ac placerat ipsum, nec varius risus. 
+                Maecenas egestas, nunc ac convallis maximus, magna justo scelerisque ligula, non sagittis nulla urna sed ligula.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <aside class=col-md-3>
+                    <div class="container">
+                        <nav>
+                            <ul>
+                                <li><a (click) = "addAlumni()" >Add Alumni</a></li>
+                                <li><a (click) = "viewAlumni()" >View Alumni</a></li>
+                                <li><a (click) = "viewAllAlumni()" >View All Alumni</a></li>
+                                <li><a (click) = "searchAlumni()" >Search Alumni</a></li>
+                            </ul>
+                        </nav>
+                        
+                    </div>  
+                </aside>
+             
+                <addAlumni class="container" class="col-md-9" *ngIf = "showAlumniComp" ></addAlumni>
+                <searchAlumni class="col-md-9" *ngIf = "showSearchComp" ></searchAlumni>
+                <viewAlumni class="col-md-9" *ngIf = "showViewComp" ></viewAlumni>
+                <viewAllAlumni class="col-md-9" *ngIf = "showViewAllComp" ></viewAllAlumni>
+
+            </div>
+        </div>     
+    </section>
+
+    <footer>
+        <p>IU Alumni Assocation, Copyright &copy; 2017</p>
+    </footer>
+    
+</div>
